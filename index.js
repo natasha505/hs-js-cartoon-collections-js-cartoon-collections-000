@@ -27,7 +27,6 @@ function summonCaptainPlanet(planeteerCalls){
 }
 
 
-
 function longPlaneteerCalls(words) {
   let calls = [];
   let output = false; // set output to always false unless something changes
@@ -40,9 +39,6 @@ function longPlaneteerCalls(words) {
   }
   return output;
 }
-
-
-
 
 
 function findTheCheese (foods) {
