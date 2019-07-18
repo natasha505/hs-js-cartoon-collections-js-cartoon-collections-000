@@ -42,7 +42,7 @@ function findTheCheese(foods) {
 function wordsWithB(words) {
   var newArray = [];
   for (var i = 0; i < words.length; i++) {
-    if (words[i].startsWith(B) === true) {
+    if (words[i].startsWith("b") === true) {
       newArray.push(words[i]); 
     }
   }
