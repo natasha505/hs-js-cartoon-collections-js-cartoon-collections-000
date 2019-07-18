@@ -51,6 +51,8 @@ function wordsWithB(words) {
   return newArray; // => [ "boat", "barge" ]
 }
 
+console.log()
+
 wordsWithB(["airplane", "boat"])
 
 
