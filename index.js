@@ -43,7 +43,7 @@ function wordsWithB(words) {
   var newArray = [];
   for ( i = 0; i < words.length; i++) {
     if (words[i].startsWith(B) === true) {
-      
+      newArray.push(words); 
     }
   }
   return newArray; // => [ "boat", "barge" ]
