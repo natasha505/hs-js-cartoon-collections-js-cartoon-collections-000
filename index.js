@@ -46,6 +46,7 @@ function wordsWithB(words) {
       newArray.push(words[i]); 
     }
   }
+  console.log("---------------")
   console.log(newArray)
   return newArray; // => [ "boat", "barge" ]
 }
