@@ -36,11 +36,17 @@ function findTheCheese(foods) {
   return "no cheese!";
 }
 
-
+// words= ["airplane", "boat", "car", "barge"]
+// "airplane".startsWith("b") => false
+// "boat".startsWith("b") => true
 function wordsWithB(words) {
   var newArray = [];
-  newArray += words ;
-  return newArray;
+  for ( i = 0; i < words.length; i++) {
+    if (words[i].startsWith(B) === true) {
+      
+    }
+  }
+  return newArray; // => [ "boat", "barge" ]
 }
 
 
