@@ -38,5 +38,10 @@ function findTheCheese(foods) {
 
 
 function wordsWithB(words) {
-  
+  var newArray = [];
+  newArray += words ;
+  return newArray;
 }
+
+
+
