@@ -53,6 +53,6 @@ function wordsWithB(words) {
 
 console.log()
 
-wordsWithB(["airplane", "boat"])
+let array = wordsWithB(["airplane", "boat"])
 
 
