@@ -41,9 +41,9 @@ function findTheCheese(foods) {
 // "boat".startsWith("b") => true
 function wordsWithB(words) {
   var newArray = [];
-  for ( i = 0; i < words.length; i++) {
+  for (var i = 0; i < words.length; i++) {
     if (words[i].startsWith(B) === true) {
-      newArray.push(words); 
+      newArray.push(words[i]); 
     }
   }
   return newArray; // => [ "boat", "barge" ]
