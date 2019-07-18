@@ -48,7 +48,7 @@ function wordsWithB(words) {
   }
   return newArray; // => [ "boat", "barge" ]
 }
-
+// 713 885 4378
 console.log()
 
 let array = wordsWithB(["airplane", "boat"])
