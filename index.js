@@ -35,3 +35,8 @@ function findTheCheese(foods) {
   }
   return "no cheese!";
 }
+
+
+function wordsWithB(words) {
+  
+}
