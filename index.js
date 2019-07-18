@@ -46,13 +46,13 @@ function wordsWithB(words) {
       newArray.push(words[i]); 
     }
   }
-  console.log("---------------")
-  console.log(newArray)
   return newArray; // => [ "boat", "barge" ]
 }
 
 console.log()
 
 let array = wordsWithB(["airplane", "boat"])
+
+console.log(array)
 
 
